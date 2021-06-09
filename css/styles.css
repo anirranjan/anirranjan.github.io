@@ -1,18 +1,37 @@
-body {
-  background-color: #1c2e4a;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 300;
+a:link {
   color: white;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: white;
-  border-width: 5px;
-  width: 5%;
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #e1e1e1;
+}
+
+a:active {
+  color: #d0d0d0;
+}
+
+body {
+  text-align: center;
+  background-color: #5784BA;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.footer-icon{
+  margin: 20px 10px;
 }
