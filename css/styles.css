@@ -7,16 +7,13 @@ a:visited {
 }
 
 a:hover {
-  color: #e1e1e1;
-}
-
-a:active {
-  color: #d0d0d0;
+  color: #a9a9a9;
 }
 
 body {
   text-align: center;
-  background-color: #5784BA;
+  background-color: #5784ba;
+  background-image: linear-gradient(#5784ba, #496d98);
   font-family: 'Quicksand', sans-serif;
   color: white;
 }
@@ -26,11 +23,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   line-height: 2;
 }
+
+.intro{
+  margin: 20px auto 20px auto;
+  width: 50%;
+}
+
+.project-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.left-img{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.right-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
 
 .footer-icon{
   margin: 20px 10px;
