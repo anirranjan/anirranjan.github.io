@@ -6,132 +6,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nirranjan Akilan</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4647f65968.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Introduction Section -->
-  <div class="intro-section">
+  <div class="header">
     <img class="intro-img" src="Images/nirranjan.png" alt="Nirranjan Pic">
-    <p class="intro">
-      Hi there! My name is Nirranjan Akilan. I am a Computer Science sophomore at the University of Texas at Dallas.
-      My goal is to become a software developer who creates applications that will have a positive impact on others.
+    <h1>My name is Nirranjan Akilan!</h1>
+    <p>
+      I'm a Computer Science student at the University of Texas at Dallas.
     </p>
   </div>
 
-<!-- Skills Section -->
+  <div class="about-me">
+    <h2>About Me</h2>
+    <p class="description">
+      I started learning how to program in high school using Python. Since then, I have participated in many hackathons and learned how to program in Java, C++, C#, HTML, CSS, and JavaScript.
+      My goal is to become a software developer who creates web and mobile applications. Outside of Computer Science, I enjoy filming videos, driving my car,
+      3D Modeling, and watching movies.
+    </p>
+  </div>
+
+  <!-- Skills Section -->
   <div class="skills">
-    <h2>Programming Skills</h2>
+    <h2>My Projects</h2>
     <div class="flex-grid">
       <div class="col">
-        <i class="fab fa-html5 fa-3x"></i>
-        <br>
-        <p>HTML</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-css3-alt fa-3x"></i>
-        <br>
-        <p>CSS</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-js-square fa-3x"></i>
-        <br>
-        <p>JavaScript</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-java fa-3x"></i>
-        <br>
-        <p>Java</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-unity fa-3x"></i>
-        <br>
-        <p>Unity</p>
-      </div>
-    </div>
-
-    <div class="flex-grid">
-      <div class="col">
-        <img src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png"/>
-        <br>
-        <p>C++</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-python fa-3x"></i>
-        <br>
-        <p>Python</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-react fa-3x"></i>
-        <br>
-        <p>React.js</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-js-square fa-3x"></i>
-        <br>
-        <p>Express.js</p>
-      </div>
-      <div class="col">
-        <i class="fab fa-git-square fa-3x"></i>
-        <br>
-        <p>Git</p>
-      </div>
-    </div>
-
-    <h2>Certifications</h2>
-    <p>
-      Software Engineering Virtual Experience Program Participant at JPMorgan Chase
-    </p>
-    <p>
-      Microsoft Technology Associate Database Fundamentals Certified
-    </p>
-  </div>
-
-  <!-- Projects Section -->
-  <div class="projects-section">
-    <h2>Projects</h2>
-    <div class="project-row">
-      <img class="left-img" src="Images/drivermania_logo.png" alt="rolls">
-      <p>
-        <em>DriverMania:</em> A 3D Car Game I built using the Unity Game Engine, Blender 3D, and C#. It is now available on the Google Play Store. <a class="project-link" href="https://drivermania.netlify.app/" target="_blank" rel="noopener noreferrer">Click here to Learn More</a>
-      </p>
-    </div>
-    <div class="project-row">
-        <img class="right-img" src="Images/planet.png" alt="earth">
+        <img src="images/drivermania_logo.png" alt="DriverMania logo">
+        <h3>DriverMania</h3>
         <p>
-          <em>MyPart:</em> A web application I developed in a team of four students to educate users on how to recycle properly
-          using React for Google Solution Challenge 2021. <a class="project-link" href="https://github.com/alphabetsoop/pwa-react" target="_blank" rel="noopener noreferrer">View Source Code</a>
+          An Arcade Driving Game where players can explore a city or set a new high score in Soccer Mode.
         </p>
-    </div>
-    <div class="project-row">
-      <img class="left-img" src="Images/helping.png" alt="snowflake">
-      <p>
-        <em>Help After Uri:</em> A web application I developed to help Texans request assistance with snow-relief activities during the February Snow Storm using React for HackUTD 2021.
-        <a class="project-link" href="https://github.com/anirranjan/Help-After-Uri" target="_blank" rel="noopener noreferrer">View Source Code</a>
-      </p>
-    </div>
-    <div class="project-row">
-      <img class="right-img" src="Images/study.png" alt="degree">
-      <p>
-        <em>College Simulator:</em> An AI application I developed in a team of four students to automate college degree planning using
-        Prolog for HackReason 2021. <a class="project-link" href="https://github.com/HackReason-College-Simulators/HackReason2021" target="_blank" rel="noopener noreferrer">View Source Code</a>
-      </p>
+        <a href="https://drivermania.netlify.app/" target="_blank" rel="noopener noreferrer"><button class="block">Learn More</button></a>
+      </div>
+      <div class="col">
+        <img src="images/help.png" alt="Help After Uri Favicon">
+        <h3>Help After Uri</h3>
+        <p>
+          HackUTD 2021. A website that rewards users for helping someone impacted by the Texas Winter Storm.
+        </p>
+        <a href="https://devpost.com/software/help-after-uri" target="_blank" rel="noopener noreferrer"><button class="block">Check out the Devpost</button></a>
+      </div>
+      <div class="col">
+        <img src="images/planet.png" alt="MyPart Favicon">
+        <h3>MyPart</h3>
+        <p>
+          Google Solution Challenge 2021. A web application that helps brings awareness to the importance of recycling.
+        </p>
+        <a href="https://www.youtube.com/watch?v=m58hcw5Xf1o" target="_blank" rel="noopener noreferrer"><button class="block">Check out the video demo</button></a>
+      </div>
+      <div class="col">
+        <img src="images/graduation.png" alt="College Simulator Favicon">
+        <h3>College Simulator</h3>
+        <p>
+          HackReason 2021. An AI application that helps students plan out their college classes.
+        </p>
+        <a href="https://devpost.com/software/college-simulators" target="_blank" rel="noopener noreferrer"><button class="block">Check out the Devpost</button></a>
+      </div>
     </div>
   </div>
 
   <!-- Contact Section -->
   <div class="contact-section">
     <h2>Connect with me!</h2>
-    <a class="connect-link" href="https://www.linkedin.com/in/nirranjanakilan/" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-linkedin fa-3x"></i></a>
-    <a class="connect-link" href="https://github.com/anirranjan" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-github fa-3x"></i></a>
-    <a class="connect-link" href="https://www.youtube.com/channel/UCvypmo8DoEUvpESRTQzlrMg" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-youtube fa-3x"></i></a>
+    <p class="description">
+      If you want to talk with me about my work, please connect with me on LinkedIn. Visit my GitHub profile to see more of my programming projects. Subscribe to my Youtube Channel if you want to see the videos I film.
+      Thanks for visiting my portfolio, and have a good day!
+    </p>
   </div>
 
-<!-- Footer -->
+  <!-- Footer -->
   <div class="footer">
-    <a class="project-link" href="https://icons8.com/icon/55199/c++">C++ icon by Icons8</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/nirranjanakilan/" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-linkedin fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/anirranjan" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-github fa-3x"></i></a>
+    <a class="footer-link" href="https://www.youtube.com/channel/UCvypmo8DoEUvpESRTQzlrMg" target="_blank" rel="noopener noreferrer"><i class="footer-icon fa fa-youtube fa-3x"></i></a>
     <p>© Copyright 2021 Nirranjan Akilan</p>
+    <div>Help and Graduation Icons made by <a class="footer-link" href="https://www.freepik.com" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a> from <a class="footer-link" href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a></div>
   </div>
 </body>
 
